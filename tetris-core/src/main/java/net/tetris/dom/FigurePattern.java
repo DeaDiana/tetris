@@ -3,6 +3,7 @@ package net.tetris.dom;
 public class FigurePattern {
     private String[] rows;
     private int centerX;
+    private int gift;
     public int centerY;
 
     public FigurePattern(int centerX, int centerY, String... rows) {
